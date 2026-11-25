@@ -25,6 +25,14 @@ npm run dev
 Open the local URL printed by Vite. To create a production build, run
 `npm run build`.
 
+## Deploy to GitHub Pages
+
+The GitHub Actions workflow in `.github/workflows/deploy.yml` builds and deploys
+the app whenever code is pushed to `main`. In the repository settings, open
+**Pages** and set **Build and deployment > Source** to **GitHub Actions**. The
+deployed site will be available at
+`https://saweathers.github.io/CS311-Project-3/`.
+
 React, Vite, and Bootstrap are recorded in `package.json` and
 `package-lock.json`; `node_modules` is ignored by Git and can be restored with
 `npm install`.
